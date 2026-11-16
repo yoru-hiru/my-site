@@ -7,7 +7,7 @@
     "captcha": true,
     "service": "web3forms"
   },
-  "language": "en",
+  "language": "zh-cn",
   "logo": {
     "alt": "My site",
     "src": "/media/logo.svg"
