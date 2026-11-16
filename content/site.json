@@ -1,12 +1,18 @@
 {
   "version": 1,
-  "description": "A website built with Goodfellow.",
+  "description": "人心勿怪的博客",
+  "externalLinksInNewTab": true,
   "favicon": "/media/favicon.svg",
+  "forms": {
+    "captcha": true,
+    "service": "web3forms"
+  },
   "language": "en",
   "logo": {
     "alt": "My site",
     "src": "/media/logo.svg"
   },
+  "noAiTraining": true,
   "theme": {
     "colors": {
       "border": "#e2e8f0",
@@ -22,6 +28,7 @@
       "headingCategory": "serif"
     }
   },
-  "title": "My site",
-  "titleTemplate": "%s | My site"
+  "timeZone": "Asia/Shanghai",
+  "title": "人心勿怪的博客",
+  "titleTemplate": "%s | 人心勿怪的博客"
 }
