@@ -1,24 +1,33 @@
 {
   "version": 1,
   "menus": {
-    "footer": [
-      {
-        "href": "/about",
-        "label": "About"
-      }
-    ],
+    "footer": [],
     "main": [
       {
         "href": "/",
-        "label": "Home"
+        "label": "博主"
       },
       {
+        "children": [
+          {
+            "href": "/",
+            "label": "观察"
+          },
+          {
+            "href": "/",
+            "label": "笔记"
+          },
+          {
+            "href": "/",
+            "label": "作品"
+          }
+        ],
         "href": "/about",
-        "label": "About"
+        "label": "探索"
       },
       {
         "href": "/news",
-        "label": "News"
+        "label": "访客"
       }
     ]
   }
