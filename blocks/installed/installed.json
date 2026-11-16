@@ -1,6 +1,112 @@
 {
   "version": 1,
   "blocks": {
+    "comments": {
+      "version": "0.13.0",
+      "category": "Interactive",
+      "entry": "blocks/installed/comments/block.tsx",
+      "files": {
+        "blocks/installed/comments/block.tsx": "277aa7b948fbfac5462f3fb3a6bea71766bb1bd01806b48fec98a2fb2cdad9f5",
+        "blocks/installed/comments/disqus-frame.tsx": "6feabcaa69d9387b57f7302593e51841eb64a53e88d44692f4b444fad0cb395a",
+        "blocks/installed/comments/garrul-frame.tsx": "802dc34a7f971564fa5d45a7ee7b1493224424f53a5f456c6964657e715b4494",
+        "blocks/installed/comments/giscus-frame.tsx": "d429195a35f791dae52a10e7b95076c0f1482fc3748012162898700584cfa4a9"
+      },
+      "source": "@goodfellow/comments",
+      "title": "Comments"
+    },
+    "countdown": {
+      "version": "0.13.0",
+      "category": "Interactive",
+      "entry": "blocks/installed/countdown/block.tsx",
+      "files": {
+        "blocks/installed/countdown/block.tsx": "749f5f67631a4f21486ffdef7ec3209fb3955c2a1454170eacd597009741defc",
+        "blocks/installed/countdown/countdown-clock.tsx": "231af64020cdbf0593a159a1577720084487be290c26056a32b1084ec1e069f7"
+      },
+      "source": "@goodfellow/countdown",
+      "title": "Countdown"
+    },
+    "custom-html": {
+      "version": "0.13.0",
+      "category": "Advanced",
+      "entry": "blocks/installed/custom-html/block.tsx",
+      "files": {
+        "blocks/installed/custom-html/block.tsx": "1ce3f731dc756558217a3f6cab624482da7fc3afce6505223a22dcff3cef34f4",
+        "blocks/installed/custom-html/html-preview.tsx": "326e68d4727c16a2d79ff342bd418abd8e2307f2a86f3226f64a76a4ad5d3d61",
+        "blocks/installed/custom-html/html-scripts.tsx": "7aa25856f9c315cc82825867bf38a2a6c0cb0763c50511474fe1f141a6cf91d2"
+      },
+      "source": "@goodfellow/custom-html",
+      "title": "Custom HTML"
+    },
+    "feed-list": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/feed-list/block.tsx",
+      "files": {
+        "blocks/installed/feed-list/block.tsx": "e7b02d0afa6cca3e46a6a1225f3b2172c47b532182d1f95fb6697bb31975113b"
+      },
+      "source": "@goodfellow/feed-list",
+      "title": "News feed"
+    },
+    "logos": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/logos/block.tsx",
+      "files": {
+        "blocks/installed/logos/block.tsx": "13fc62d374c4265fb349bef20e0ef647c9ffae4433e8b431614a5efad5aa66b5"
+      },
+      "source": "@goodfellow/logos",
+      "title": "Logos"
+    },
+    "map": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/map/block.tsx",
+      "files": {
+        "blocks/installed/map/block.tsx": "882d5939ec5d0541759f5c77056e76582d8938459257a5cf47ad28eb909e35a1"
+      },
+      "source": "@goodfellow/map",
+      "title": "Map"
+    },
+    "numbers": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/numbers/block.tsx",
+      "files": {
+        "blocks/installed/numbers/block.tsx": "2f946db9ecee794d5119c156973896b9e478da00aef89ee0e2b6709193ee01ae"
+      },
+      "source": "@goodfellow/numbers",
+      "title": "Numbers"
+    },
+    "panel": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/panel/block.tsx",
+      "files": {
+        "blocks/installed/panel/block.tsx": "4eba9471eba1c951976f0dcf10d98ebc1ec14f86c7f3fba320811bad44d1cb37"
+      },
+      "source": "@goodfellow/panel",
+      "title": "Panel"
+    },
+    "people": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/people/block.tsx",
+      "files": {
+        "blocks/installed/people/block.tsx": "e7ddd84860625765326e166de6a32146cb72cd7abca1a3bc358026556ab4909a"
+      },
+      "source": "@goodfellow/people",
+      "title": "People"
+    },
+    "section-links": {
+      "version": "0.13.0",
+      "category": "Navigation",
+      "entry": "blocks/installed/section-links/block.tsx",
+      "files": {
+        "blocks/installed/section-links/block.tsx": "7788755ee4b8095ca0b9e7ccf76cf9ed53b58f63c48680a389ec60ff136da0a6"
+      },
+      "source": "@goodfellow/section-links",
+      "title": "Content with section links"
+    },
     "shadcn-call-to-action": {
       "version": "0.13.0",
       "category": "Page sections",
@@ -24,6 +130,19 @@
       },
       "source": "@goodfellow/shadcn-cards",
       "title": "Cards"
+    },
+    "shadcn-carousel": {
+      "version": "0.13.0",
+      "category": "Interactive",
+      "entry": "blocks/installed/shadcn-carousel/block.tsx",
+      "files": {
+        "blocks/installed/shadcn-carousel/block.tsx": "894e87d34c299c39ba63fba02fb21189ae636a89cadc27c4e7892573d0f4ed65",
+        "blocks/installed/shadcn-carousel/image-carousel.tsx": "fe67b32ebd75c24a63535e240647fc9b770b1e84028156f6084d2855a83da74c",
+        "components/ui/button.tsx": "79dd6f75f8136394442202d6b8b922fb269eaad0a5dba579397c9d5b41f893bb",
+        "components/ui/carousel.tsx": "96ce291acf4e2e489849fcefef97d531b5c8fd7ec67cce907f7c392b5025c9a3"
+      },
+      "source": "@goodfellow/shadcn-carousel",
+      "title": "Image carousel"
     },
     "shadcn-faq": {
       "version": "0.13.0",
@@ -59,6 +178,19 @@
       "source": "@goodfellow/shadcn-notice",
       "title": "Notice"
     },
+    "shadcn-pricing": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/shadcn-pricing/block.tsx",
+      "files": {
+        "blocks/installed/shadcn-pricing/block.tsx": "21bc262db58281c6e253a7213e2eccb4a150fc123050185970e5e4dbf3c32cbc",
+        "components/ui/badge.tsx": "13a9380dfff853ee730c14a52df49f22aecd31f40f2998d7c1e7ec458b6e1650",
+        "components/ui/button.tsx": "79dd6f75f8136394442202d6b8b922fb269eaad0a5dba579397c9d5b41f893bb",
+        "components/ui/card.tsx": "ef8305b12c3112dab42a4708b41b1ebcc042fa5ab4c20f039da8d45b09ed5059"
+      },
+      "source": "@goodfellow/shadcn-pricing",
+      "title": "Pricing table"
+    },
     "shadcn-tabs": {
       "version": "0.13.0",
       "category": "Interactive",
@@ -81,6 +213,37 @@
       },
       "source": "@goodfellow/shadcn-testimonials",
       "title": "Testimonials"
+    },
+    "slideshow-hero": {
+      "version": "0.13.0",
+      "category": "Interactive",
+      "entry": "blocks/installed/slideshow-hero/block.tsx",
+      "files": {
+        "blocks/installed/slideshow-hero/block.tsx": "120c32b428974cfca50f1cd861f35cb321b9acaea006b1bc4aaef049e6920cae",
+        "blocks/installed/slideshow-hero/slideshow-pictures.tsx": "18583e68a4ca87876b10c0f5ddfe98f0b1361a6b1f08f27f63ab2be6c02888b1"
+      },
+      "source": "@goodfellow/slideshow-hero",
+      "title": "Slideshow with quick links"
+    },
+    "social-links": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/social-links/block.tsx",
+      "files": {
+        "blocks/installed/social-links/block.tsx": "9d10a3183f1902830b7147f45ec70b5837a47d552365e46fb531def60200d51f"
+      },
+      "source": "@goodfellow/social-links",
+      "title": "Social links"
+    },
+    "timeline": {
+      "version": "0.13.0",
+      "category": "Page sections",
+      "entry": "blocks/installed/timeline/block.tsx",
+      "files": {
+        "blocks/installed/timeline/block.tsx": "d75d276021bb7120985011034bdfe2f735163a2a2461ab560a55095d1ef546b7"
+      },
+      "source": "@goodfellow/timeline",
+      "title": "Timeline"
     }
   }
 }
